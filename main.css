@@ -44,3 +44,25 @@ li a.bottom:hover {
   background-color: #4caf50;
   color: white;
 }
+a:active, a:visited {
+color: #fff;
+}
+
+.link {
+    display: block;
+    padding: 14px 16px;
+    width: 400px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #3399FF;
+    color: white;
+    border-radius: 45px;
+}
+.link:hover {
+    background-color: #1a8CFF;
+    
+}
+.link:hover:not(.active) {
+    background-color: #7EC6D2;
+    color:white;
+}
