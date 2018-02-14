@@ -1,5 +1,8 @@
 body {
-  margin-top: 40px;
+    margin-top: 40px;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 ul {
   position: fixed;
@@ -41,28 +44,28 @@ li a.bottom {
   float: left;
 }
 li a.bottom:hover {
-  background-color: #4caf50;
+  background-color: #1a8CFF;
   color: white;
 }
 a:active, a:visited {
-color: #fff;
-}
+    color: #ddd;
+ } 
 
-.link {
+a {
     display: block;
     padding: 14px 16px;
     width: 400px;
     text-decoration: none;
     text-align: center;
     background-color: #3399FF;
-    color: white;
     border-radius: 45px;
 }
-.link:hover {
+a:hover {
     background-color: #1a8CFF;
+    color: #fff;
     
 }
-.link:hover:not(.active) {
+a:hover:not(.active) {
     background-color: #7EC6D2;
-    color:white;
+   // color:white;
 }
