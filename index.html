@@ -20,13 +20,13 @@
         </ul>
 
     
-    <div class="text-left">
+    <div class="container text-left">
     <h2 id="About">About</h1>
         Hi, I'm Walter Spicer.  I'm a Computer Engineering Technician <i>(hardware, networking, technical support)</i> changing careers into app and web development. Working on HTML5/ CSS3/ JavaScript, Python3, and Swift3/4. <br /> <br/>
         I expect my design to be merely functional as I continue to grok CSS asthetics.
     </div>
             
-    <div class="text-right">
+    <div class="container text-right">
         <h2 id="Portfolio">Portfolio</h2>
 
             <ul>
@@ -37,7 +37,7 @@
                 <li><a class="link" href="#">|</a></li>
             </ul>        
     </div>
-    <div class="text-right">
+    <div class="container text-right">
     <h2 id="Links">Links</h2>
             <ul>
                 <li><a class="link" href="https://www.freecodecamp.org">freeCodeCamp</a>
@@ -47,8 +47,62 @@
                 <li><a class="link" href="https://www.niagaracollege.ca">Niagara College</a></li>
             </ul>        
     </div>
-    <div class="text-left">
-    <h2 id="Contact">Contact</h2>
+    <div class="container text-left form">
+      <h2 id="Contact">Contact</h2>
+
+<form method="post">
+
+	Your Username: <input type="text" name="userid" id="username" size="30"><br/>
+    Your Password: <input type="password" name="pword" id="pword" size="30">
+
+  <fieldset>
+  <legend>Favourite Day of the Week</legend>
+  <input type="radio" name="FavDay" id="FavDay" value="Sunday">Sunday
+  <input type="radio" name="FavDay" id="FavDay" value="Monday">Monday
+  <input type="radio" name="FavDay" id="FavDay" value="Tuesday">Tuesday
+  <input type="radio" name="FavDay" id="FavDay" value="Wednesday">Wednesday<br/>
+  <input type="radio" name="FavDay" id="FavDay" value="Thursday">Thursday
+  <input type="radio" name="FavDay" id="FavDay" value="Friday">Friday
+  <input type="radio" name="FavDay" id="FavDay" value="Saturday">Saturday<br/>
+  </fieldset>
+
+  <label for="social_media">Favourite Social Networking Website: </label>
+  <input list="social_media" name="social_media">
+  <datalist id="social_media">
+  <option value = "Facebook">
+  <option value = "Twitter">
+  <option value = "LinkedIn">
+  <option value = "Pinterest">
+  <option value = "Google Plus+">
+  <option value = "Tumblr">
+  <option value = "Instagram">
+  <option value = "VK">
+  <option value = "Flikr">
+  <option value = "Vine">
+  <option value = "Meetup">
+  </datalist>
+
+
+
+<fieldset>
+  <legend>
+    Shipping Address
+  </legend>
+  AddressLine1: <input type="text" id="addressline1" size="50"><br/>
+  AddressLine2: <input type="text" id="addressline2" size="50"><br/>
+  City: <input type="text" id="city" size="30"><br/>
+  Province: <input type="text" id="province" size="50"><br/>
+  Postal Code: <input type="text" id="addressline1" size="7"><br/>
+
+</fieldset>
+
+<!-- Typo in text? Seems you would want password hidden and userid shown! -->
+
+
+
+    <input type="submit" value="Submit"/>
+</form>
+      
     </div>
         </div>
     </body>

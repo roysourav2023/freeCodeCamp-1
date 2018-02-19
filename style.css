@@ -61,30 +61,30 @@ h1, h2 {
     margin: 5px;
     padding: 5px;
 }
-
-.text-left {
+.container {
     margin: 5px;
     padding: 5px;
     display: block;
-    width: 50%;
     background-color: #dddddd;
     float: left;
-    height: 350px;
+    overflow: hidden;
     border-radius: 20px;
+}
+.text-left {
+    width: 50%;
+    float: left;
+    /*    height: 300px;*/
 }
 
 .text-right {
-    margin: 5px;
-    padding: 5px;
-    display: block;
-    background-color: #dddddd;
     float: right;
-    height: 350px;
-    text-align: center;
-    border-radius: 20px;
-    
+/*    height: 300px;*/
+    text-align: center;    
 }
 
+.form {
+    background-color: beige;
+}
 #logo {
     float: left;
     width: 58px;
